@@ -11,7 +11,7 @@ pub struct User {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Message {
-    sender: User,
-    text: String,
-    time: u64,
+    pub sender: User,
+    pub text: String,
+    pub time: u64,
 }
